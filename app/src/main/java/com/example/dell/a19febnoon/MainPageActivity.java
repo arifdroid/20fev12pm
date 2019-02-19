@@ -10,7 +10,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainPageActivity extends AppCompatActivity {
 
-    private Button signOutButton;
+    private Button signOutButton,findUserBut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,8 @@ public class MainPageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_page);
 
         signOutButton = findViewById(R.id.signOutButton);
+        findUserBut = findViewById(R.id.buttonFindUser);
+
 
         signOutButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +32,15 @@ public class MainPageActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
 
+            }
+        });
+
+        findUserBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainPageActivity.this, FindUserActivity.class);
+                startActivity(intent);
             }
         });
     }
