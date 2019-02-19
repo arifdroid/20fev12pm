@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "78327915502",
+    "firebase_url": "https://febnoon.firebaseio.com",
+    "project_id": "febnoon",
+    "storage_bucket": "febnoon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78327915502:android:3ca9ca21e9e74a78",
+        "android_client_info": {
+          "package_name": "com.example.dell.a19febnoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78327915502-meo6opo4788conspeej8vs0bmg6qqn8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.a19febnoon",
+            "certificate_hash": "fc0d51375a8afe6a9517db644d56d84bf7fe15d0"
+          }
+        },
+        {
+          "client_id": "78327915502-rm952bu7jvkplcdpoek27euna9uatkv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiGFyivq7iHqkJ7rzsMJYj0EM8k9pYpHc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78327915502-rm952bu7jvkplcdpoek27euna9uatkv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
