@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                            if(dataSnapshot.exists()){
+                            if(dataSnapshot.exists() || !dataSnapshot.exists()){
                                 Map<String,Object> userMap = new HashMap<>();
 
                                 userMap.put("phone",user.getPhoneNumber());
@@ -147,6 +147,8 @@ public class MainActivity extends AppCompatActivity {
 
 
                             }
+
+                            userIsLoggedIn();
                         }
 
                         @Override
@@ -155,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     });
 
-                    userIsLoggedIn();
+
                 }
             }
         });
